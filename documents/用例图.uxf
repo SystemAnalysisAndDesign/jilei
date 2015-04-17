@@ -92,7 +92,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>440</x>
+      <x>450</x>
       <y>110</y>
       <w>80</w>
       <h>100</h>
@@ -325,11 +325,11 @@
     <coordinates>
       <x>300</x>
       <y>30</y>
-      <w>170</w>
+      <w>180</w>
       <h>120</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;150.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;160.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -347,44 +347,44 @@
     <coordinates>
       <x>300</x>
       <y>120</y>
-      <w>170</w>
+      <w>180</w>
       <h>40</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>300</x>
       <y>140</y>
-      <w>170</w>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;50.0;150.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>300</x>
       <y>150</y>
-      <w>170</w>
+      <w>180</w>
       <h>110</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;90.0;150.0;10.0</additional_attributes>
+    <additional_attributes>10.0;90.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>300</x>
       <y>160</y>
-      <w>170</w>
+      <w>180</w>
       <h>150</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;130.0;150.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
