@@ -15,7 +15,7 @@
  */
 
 $config = require 'config.php';
-$universities = require 'university.php';
+$universities = require 'universities.php';
 
 if ($config["TEST"] === TRUE)
 	require 'test/index.test.php';
