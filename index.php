@@ -19,13 +19,13 @@
  * )
  */
 
-$config = require 'config.php';
-$universities = require 'universities.php';
-$types = require 'types.php';
+$config = require "config.php";
+$universities = require "universities.php";
+$types = require "types.php";
 
 if ($config["TEST"] === TRUE)
-	require 'test/index.test.php';
+	require "test/index.test.php";
 else
-	require 'controller/index.control.php';
+	require "controller/index.control.php";
 
-require 'template/index.html.php';
+require "template/index.html.php";
