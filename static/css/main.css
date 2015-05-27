@@ -1,4 +1,6 @@
-.list-item {
+@CHARSET "UTF-8";
+
+.item {
 	height: 8em;
 	margin-bottom: -1px;
 	padding: 1em;
@@ -6,6 +8,7 @@
 	border-style: solid;
 	border-color: gray;
 }
+
 .item-icon {
 	float: left;
 	margin-right: 1em;
@@ -14,6 +17,7 @@
 	outline: 1px solid gray;
 	overflow: hidden;
 }
+
 .item-title {
 	font-size: 1.5em;
 	color: #333;
