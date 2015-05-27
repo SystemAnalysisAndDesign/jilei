@@ -7,11 +7,10 @@
 ?>
 
 <div id="header">
-<h1 id="title">鸡肋网——二手交易信息发布平台</h1>
-<ul id="navigator">
-<?php 
-foreach ($types as $type)
-	echo "<li>".$type["name"]."</li>"
-?>
-</ul>
+	<h1 id="title">鸡肋网——二手交易信息发布平台</h1>
+	<ul id="navigator">
+<?php foreach ($types as $type){?>
+		<li><?php echo $type["name"]?></li>
+<?php }?>
+	</ul>
 </div>

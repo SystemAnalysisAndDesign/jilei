@@ -6,15 +6,34 @@
  * $items
  */
 ?>
-
+<!doctype html>
 <html>
-<header>
-</header>
-<div>
+<head>
+<meta charset="utf-8" />
+<title>鸡肋网</title>
+<link rel="stylesheet" href="static/css/main.css" />
+</head>
+<body>
 <?php
 require 'header.html.php';
 ?>
-
-<p>here index.html.php</p>
-</div>
+	<div id="list">
+		<div class="list-item">
+			<img class="item-icon" />
+			<div class="item-text">
+				<div class="item-title">Title</div>
+				<div class="item-school">School</div>
+				<div class="item-date">Date</div>
+			</div>
+		</div>
+		<div class="list-item">
+			<img class="item-icon" />
+			<div class="item-text">
+				<div class="item-title">Title</div>
+				<div class="item-school">School</div>
+				<div class="item-date">Date</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
