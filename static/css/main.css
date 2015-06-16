@@ -1,9 +1,9 @@
 @CHARSET "UTF-8";
 
 .item {
-	height: 8em;
+	height: 7em;
+	padding: .5em;
 	margin-bottom: -1px;
-	padding: 1em;
 	border-width: 1px 0;
 	border-style: solid;
 	border-color: gray;
@@ -11,14 +11,19 @@
 
 .item-icon {
 	float: left;
-	margin-right: 1em;
-	width: 8em;
-	height: 8em;
+	margin-right: .5em;
+	width: 7em;
+	height: 7em;
 	outline: 1px solid gray;
 	overflow: hidden;
 }
 
 .item-title {
-	font-size: 1.5em;
+	height: 2em;
+	font-size: 1.3em;
 	color: #333;
 }
+
+.item-school,
+.item-date
+{ margin-top: .8em; }

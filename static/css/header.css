@@ -1,1 +1,40 @@
 @CHARSET "UTF-8";
+
+body {
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul.nav {
+	padding: 0;
+    line-height: 3em;
+    list-style: none;
+}
+
+ul.nav>li {
+    padding-left: .8em;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #999;
+    margin-bottom: -1px;
+}
+
+ul.nav>li>div {
+    float: left;
+}
+
+ul.nav>li>ul {
+    list-style: none;
+    margin-left: 1em;
+}
+
+ul.nav>li>ul>li {
+    display: inline-block;
+    margin-right: 1em;
+    color: #f06;
+    cursor: pointer;
+}

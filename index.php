@@ -22,6 +22,9 @@ $config = require "config.php";
 $universities = require "universities.php";
 $types = require "types.php";
 
+$_university = isset($_GET["university"]) ? $_GET["university"] : "";
+$_type = isset($_GET["type"]) ? $_GET["type"] : "";
+
 $title = "";
 $items = array ();
 
